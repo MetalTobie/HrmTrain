@@ -8,6 +8,10 @@ init python:
         '00_ex_characters', '00_ex_characters/01_daphne', '00_ex_characters/01_daphne' )
     WTXmlLinker.prepareCharacterResources( 'snape', 
         '00_ex_characters', '00_ex_characters/02_snape', '00_ex_characters/02_snape' )
+    WTXmlLinker.prepareCharacterResources( 'luna', 
+        '00_ex_characters', '00_ex_characters/03_luna', '00_ex_characters/03_luna' )
+    WTXmlLinker.prepareCharacterResources( 'phoenix', 
+        '00_ex_characters', '00_ex_characters/04_phoenix', '00_ex_characters/04_phoenix' )
 
 
 init:
@@ -79,35 +83,35 @@ init:
             "\"Леди Спид Стик-2000\", элегантный способ передвижения для страстных ведьм. Торговой маркой гарантируется полное удовлетворение от эффекта. Закажите одну штуку для вашей ведьмы, и она больше не будет использовать ее скучную старую метлу!", "cupboard", None ),
         ("sexdoll", "Секс-кукла \"Джуанна\"", 0, "03_hp/18_store/23.png", 
             "Секс-кукла \"Джуанна\"... Очень реалистичная. Выглядит почти как настоящий человек под каким-то заклинанием.", "cupboard", None ),
-        ("shortskirt", "Школьная средняя юбка (40 см)", 700, "03_hp/18_store/07.png", 
+        ("shortskirt", "Школьная средняя юбка (40 см)", 200, "03_hp/18_store/07.png", 
             "Школьная средняя юбка. Знаметно улучшает оценки.", "gears_skirt", None ),
-        ("xshortskirt", "Школьная короткая юбка (35 см)", 1000, "03_hp/18_store/07.png", 
+        ("xshortskirt", "Школьная короткая юбка (35 см)", 300, "03_hp/18_store/07.png", 
             "Школьная короткая юбка. Значительно улучшает оценки.", "gears_skirt", None ),
-        ("xxshortskirt", "Школьная игривая юбка (30 см)", 1500, "03_hp/18_store/07.png", 
+        ("xxshortskirt", "Школьная игривая юбка (30 см)", 500, "03_hp/18_store/07.png", 
             "Школьная игривая юбка. Для игр и игрищ. Сильно улучшаяет оценки.", "gears_skirt", None ),
-        ("xsmallskirt", "Школьная мини-юбка (25 см)", 3000, "03_hp/18_store/07.png", 
+        ("xsmallskirt", "Школьная мини-юбка (25 см)", 1000, "03_hp/18_store/07.png", 
             "Школьная мини-юбка. Резко улучшает оценки. Повышает рейтинг игры до 12+.", "gears_skirt", None ),
-        ("xxsmallskirt", "Школьная микро-юбка (20 см)", 5000, "03_hp/18_store/07.png", 
+        ("xxsmallskirt", "Школьная микро-юбка (20 см)", 2000, "03_hp/18_store/07.png", 
             "Школьная микро-юбка. Фантастически улучшает оценки. Повышает рейтинг игры до 16+.", "gears_skirt", None ),
         ("xxxsmallskirt", "Школьная нано-юбка (10 см)", 0, "03_hp/18_store/07.png", 
             "Школьная нано-юбка. Заставляет всех забыть про оценки. В том числе и учителей. Повышает рейтинг игры до 35+.", "gears_skirt", None ),
-        ("skirt_cheerleader", "Юбка болельщицы Гриффиндора", 1500, "03_hp/18_store/07.png", 
+        ("skirt_cheerleader", "Юбка болельщицы Гриффиндора", 500, "03_hp/18_store/07.png", 
             "Юбка болельщицы Гриффиндора. Настоящая. Остерегайтесь подделок.", "gears_skirt", None ),
-        ("skirt_business", "Миниюбка бизнес-леди", 3000, "03_hp/18_store/07.png", 
+        ("skirt_business", "Миниюбка бизнес-леди", 1000, "03_hp/18_store/07.png", 
             "Миниюбка бизнес-леди. Чем меньше прикрыты ноги, тем выгоднее условия контракта.", "gears_skirt", None ),
-        ("skimpyshirt", "Школьная рубашка-минитопик", 5000, "03_hp/18_store/07.png", 
+        ("skimpyshirt", "Школьная рубашка-минитопик", 1500, "03_hp/18_store/07.png", 
             "Школьная рубашка-минитопик. Будит в окружающих зверя. Если точнее - мартовского кота.", "gears_shirt", None ),
-        ("shirt_cheerleader", "Кофта болельщицы Гриффиндора", 1000, "03_hp/18_store/07.png", 
+        ("shirt_cheerleader", "Кофта болельщицы Гриффиндора", 300, "03_hp/18_store/07.png", 
             "Кофта болельщицы Гриффиндора. Стимулирует игроков сильнее играть, а болельщиков сильнее болеть.", "gears_shirt", None ), 
-        ("shirt_business", "Белая рубашка в деловом стиле", 1000, "03_hp/18_store/07.png", 
+        ("shirt_business", "Белая рубашка в деловом стиле", 300, "03_hp/18_store/07.png", 
             "Белая рубашка в деловом стиле. Цвет непорочности для порочных.", "gears_shirt", None ), 
-        ("ball_dress", "Бальное платье", 1500, "03_hp/18_store/01.png", 
+        ("ball_dress", "Бальное платье", 500, "03_hp/18_store/01.png", 
             "Роскошное вечернее платье для особых случаев", "gears_dress", None ),
         ("badge", "Значок \"А.В.Н.Э.\"", 100, "03_hp/18_store/29.png", 
             "Значок \"А.В.Н.Э.\". Симулируй заботу...", "gears_other", None ),
-        ("nets", "Ажурные чулки", 700, "03_hp/18_store/30.png", 
+        ("nets", "Ажурные чулки", 200, "03_hp/18_store/30.png", 
             "Ажурные чулки. Вопреки распространенному мнению, они не были изобретены рыбаком.", "gears_stockings", None ),
-        ("tights", "Колготки", 300, "03_hp/18_store/30.png", 
+        ("tights", "Колготки", 100, "03_hp/18_store/30.png", 
             "Колготки. Не кантовать.", "gears_stockings", None ),
         ("wine", "Вино Дамблдора", 0, "03_hp/18_store/27.png", 
             "Бутылка из тайника профессора Дамблдора...", "cupboard", None ),
@@ -127,11 +131,40 @@ init:
             "Скромные белые трусики", "gears_panties", None ),
         ("skirt", "Школьная длинная юбка (50см)", 0, "03_hp/18_store/01.png", 
             "Школьная длинная юбка.", "gears_skirt", None ),
-        ("scroll", "Священный свиток", 30, "03_hp/18_store/31.png", 
+        ("scroll", "Священный свиток", 300, "03_hp/18_store/31.png", 
             "Священный свиток содержит тайные знания...", "scroll", None), # {"pic":"03_hp/19_extras/xx.png"} )
+        ("hair_wavy_black", "Обычная прическа (брюнетка)", 0, "03_hp/18_store/01.png", 
+            "Обычная прическа (брюнетка)", "gears_hair", None ),
+        ("hair_wavy_blonde", "Обычная прическа (блондинка)", 0, "03_hp/18_store/01.png", 
+            "Обычная прическа (блондинка)", "gears_hair", None ),
+        ("hair_wavy_red", "Обычная прическа (рыжая)", 0, "03_hp/18_store/01.png", 
+            "Обычная прическа (рыжая)", "gears_hair", None ),
+        ("hair_basic", "Обычная прическа (каштанка)", 0, "03_hp/18_store/01.png", 
+            "Обычная прическа (каштанка)", "gears_hair", None ),
+        ("hair_parade", "Прическа для выпускного", 0, "03_hp/18_store/01.png", 
+            "Прическа для выпускного", "gears_hair", None ),
+        ("hair_set", "Средства для волос \"Ведьмодница 2000\"", 500, "03_hp/18_store/07.png", 
+            "Волшебный набор для ухода за волосами. И пусть ваш избранник потеряется в пышных локонах.", "gears_other", None ),
 
         ]
 
+#        ("hair_ponytail_brown", "Хвостик (каштанка)", 0, "03_hp/18_store/01.png", 
+#            "Хвостик (каштанка)", "gears_hair", None ),
+#        ("hair_updo_black", "Пышная укладка (брюнетка)", 0, "03_hp/18_store/01.png", 
+#            "Пышная укладка (брюнетка).", "gears_hair", None ),
+#        ("hair_updo_brown", "Пышная укладка (каштанка)", 0, "03_hp/18_store/01.png", 
+#            "Пышная укладка (каштанка)", "gears_hair", None ),
+#        ("hair_wacky_black", "Буйная прическа (брюнетка)", 0, "03_hp/18_store/01.png", 
+#            "Буйная прическа (брюнетка)", "gears_hair", None ),
+#        ("hair_wacky_blonde", "Буйная прическа (блондинка)", 0, "03_hp/18_store/01.png", 
+#            "Буйная прическа (блондинка)", "gears_hair", None ),
+#        ("hair_wacky_red", "Буйная прическа (рыжая)", 0, "03_hp/18_store/01.png", 
+#            "Буйная прическа (рыжая)", "gears_hair", None ),
+#        ("hair_wavy_combed_brown", "Собранные волосы (каштанка)", 0, "03_hp/18_store/01.png", 
+#            "Собранные волосы (каштанка)", "gears_hair", None ),
+
+        
+        
 
 # Заполнение массива предметов
         itemList=[]
@@ -150,7 +183,7 @@ init:
 
 # Инициализация коллекций предметов
         global itsDAHR
-        itsDAHR=RegEntry(ItemCollection("DAHR",{"gears":1, "gifts":3, "scroll":68, "gears_shirt":1, "gears_skirt":1, "gears_stockings":1, "gears_other":1, "gears_dress":1}))
+        itsDAHR=RegEntry(ItemCollection("DAHR",{"gears":1, "gifts":3, "scroll":13, "gears_shirt":1, "gears_skirt":1, "gears_stockings":1, "gears_other":1, "gears_dress":1}))
 
         global itsOWL
         itsOWL=RegEntry(ItemCollection("OWL"))
@@ -183,6 +216,20 @@ init:
             constVals={"pos_door": gMakePos( 350, 0 ), "pos_doorleft": gMakePos( 300, 0 ), "pos_center": POS_140}))
         SetArrayValue("chibisnape", "door", [610,210])
         SetArrayValue("chibisnape", "center", [360,210])
+        
+        global luna
+        luna=RegEntry(Person("luna", "Луна", CharacterExData( WTXmlLinker.getLinkerKey_luna()), 
+            defVals={"pos": POS_320, "pos2": gMakePos( 340, 420 )}, 
+            constVals={"pos_door": gMakePos( 460, -60 ), "pos_center": POS_140}))
+        SetArrayValue("chibiluna", "door", [610,220])
+        SetArrayValue("chibiluna", "center", [370,220])
+        
+        global phoenix
+        phoenix=RegEntry(Person("phoenix", "Феникс", CharacterExData( WTXmlLinker.getLinkerKey_phoenix()), 
+            defVals={"pos": POS_610f, "pos2": gMakePos( 340, 420 )}, 
+            constVals={"pos_door": gMakePos( 460, -60 ), "pos_center": POS_140}))
+        SetArrayValue("chibiphoenix", "door", [610,220])
+        SetArrayValue("chibiphoenix", "center", [370,220])
 
 
 
@@ -294,6 +341,14 @@ init:
 # Поскольку точка "DAPHENTER" предваряет вызов меню и ивентов ниже, никаких дополнительных условий в ивентах меню не требуется
         this.Where({"DAPHENTER"},"dap_interlude_02").AddStep("dap_interlude_02", ready=lambda e: this.dap_request_02._finishCount>=1,constVals={"members":{"daphne"}})
 
+        li={"05":["\"Научите меня\"","#(Перейдем непосредственно к тренеровке...)"]}
+        for s in li:
+                this.AddEvent("dap_request_"+s+"::"+li[s][0], points={"daphne_private"}, constVals={"eventPlan":li[s][1], "members":{"daphne"}}, defVals={"heartCount": 0}) 
+
+        li={"04":["\"Больше откровенности\"","#(Полагаю алкоголь раскрепостит её...)"]}
+        for s in li:
+                this.AddEvent("dap_request_"+s+"::"+li[s][0], points={"daphne_private"}, constVals={"eventPlan":li[s][1], "members":{"daphne"}}, defVals={"heartCount": 0}) 
+
         li={"03":["\"Популярность\"","#(Пора занять её чем-то новым...)"]}
         for s in li:
             __s="dap_request_"+s
@@ -395,34 +450,65 @@ init:
 # Товары для газеты
     python:
 
-        tu=[("nsp_newsp_book_p01::\"Журналистика для любителей\"",           120, "08_newspaper_scenario/books/Book_p1.png", "Эта книга описывает основы журналистики.",
+#        tu=[("nsp_newsp_book_p01::\"Журналистика для любителей\"",           120, "08_newspaper_scenario/books/Book_p1.png", "Эта книга описывает основы журналистики.",
+#                "Книга повысила мастерство написания статей. Кроме того, благодаря ей доступны новые журналистские задания."),
+                
+#            ("nsp_newsp_book_p02a::\"Журналистика для продвинутых. Том 1\"",           200, "08_newspaper_scenario/books/Book_p2a.png", "Эта книга описывает принципы журналистики.",
+#                "Книга повысила мастерство написания статей. Кроме того, благодаря ей доступны новые журналистские задания."),
+                
+#            ("nsp_newsp_book_p02b::\"Журналистика для продвинутых. Том 2\"",           300, "08_newspaper_scenario/books/Book_p2b.png", "Эта книга описывает принципы журналистики.",
+#                "Книга повысила мастерство написания статей. Кроме того, благодаря ей доступны новые журналистские задания."),
+                
+#            ("nsp_newsp_book_p03a::\"Журналистика для экспертов. Том 1\"",           500, "08_newspaper_scenario/books/Book_p3a.png", "Эта книга описывает секреты журналистики.",
+#                "Книга повысила мастерство написания статей. Кроме того, благодаря ей доступны новые журналистские задания."),
+                
+#            ("nsp_newsp_book_p03b::\"Журналистика для экспертов. Том 2\"",           600, "08_newspaper_scenario/books/Book_p3b.png", "Эта книга описывает секреты журналистики.",
+#                "Книга повысила мастерство написания статей. Кроме того, благодаря ей доступны новые журналистские задания."),
+               
+#            ("nsp_newsp_book_p04::\"Стань писателем для любителей.\"",           300, "08_newspaper_scenario/books/Book_p4.png", "Эта книга описывает основы писательского ремесла.",
+#                "Книга повысила мастерство написания статей. Кроме того, благодаря ей доступны новые журналистские задания."),
+                
+#            ("nsp_newsp_book_p05a::\"Стань писателем для продвинутых. Том 1\"",           600, "08_newspaper_scenario/books/Book_p5a.png", "Эта книга описывает принципы писательского ремесла.",
+#                "Книга повысила мастерство написания статей. Кроме того, благодаря ей доступны новые журналистские задания."),
+                
+#            ("nsp_newsp_book_p05b::\"Стань писателем для продвинутых. Том 2\"",           800, "08_newspaper_scenario/books/Book_p5b.png", "Эта книга описывает принципы писательского ремесла.",
+#                "Книга повысила мастерство написания статей. Кроме того, благодаря ей доступны новые журналистские задания."),
+                
+#            ("nsp_newsp_book_p06a::\"Стань писателем для экспертов. Том 1\"",           1200, "08_newspaper_scenario/books/Book_p6a.png", "Эта книга описывает секреты писательского ремесла.",
+#                "Книга повысила мастерство написания статей. Кроме того, благодаря ей доступны новые журналистские задания."),
+                
+#            ("nsp_newsp_book_p06b::\"Стань писателем для экспертов. Том 2\"",           1500, "08_newspaper_scenario/books/Book_p6b.png", "Эта книга описывает секреты писательского ремесла.",
+#                "Книга повысила мастерство написания статей. Кроме того, благодаря ей доступны новые журналистские задания."),
+#                ]
+
+        tu=[("nsp_newsp_book_p01::\"Журналистика для любителей\"",           120, "08_newspaper_scenario/books/book.png", "Эта книга описывает основы журналистики.",
                 "Книга повысила мастерство написания статей. Кроме того, благодаря ей доступны новые журналистские задания."),
                 
-            ("nsp_newsp_book_p02a::\"Журналистика для продвинутых. Том 1\"",           200, "08_newspaper_scenario/books/Book_p2a.png", "Эта книга описывает принципы журналистики.",
+            ("nsp_newsp_book_p02a::\"Журналистика для продвинутых. Том 1\"",           200, "08_newspaper_scenario/books/book.png", "Эта книга описывает принципы журналистики.",
                 "Книга повысила мастерство написания статей. Кроме того, благодаря ей доступны новые журналистские задания."),
                 
-            ("nsp_newsp_book_p02b::\"Журналистика для продвинутых. Том 2\"",           300, "08_newspaper_scenario/books/Book_p2b.png", "Эта книга описывает принципы журналистики.",
+            ("nsp_newsp_book_p02b::\"Журналистика для продвинутых. Том 2\"",           300, "08_newspaper_scenario/books/book.png", "Эта книга описывает принципы журналистики.",
                 "Книга повысила мастерство написания статей. Кроме того, благодаря ей доступны новые журналистские задания."),
                 
-            ("nsp_newsp_book_p03a::\"Журналистика для экспертов. Том 1\"",           500, "08_newspaper_scenario/books/Book_p3a.png", "Эта книга описывает секреты журналистики.",
+            ("nsp_newsp_book_p03a::\"Журналистика для экспертов. Том 1\"",           500, "08_newspaper_scenario/books/book.png", "Эта книга описывает секреты журналистики.",
                 "Книга повысила мастерство написания статей. Кроме того, благодаря ей доступны новые журналистские задания."),
                 
-            ("nsp_newsp_book_p03b::\"Журналистика для экспертов. Том 2\"",           600, "08_newspaper_scenario/books/Book_p3b.png", "Эта книга описывает секреты журналистики.",
+            ("nsp_newsp_book_p03b::\"Журналистика для экспертов. Том 2\"",           600, "08_newspaper_scenario/books/book.png", "Эта книга описывает секреты журналистики.",
                 "Книга повысила мастерство написания статей. Кроме того, благодаря ей доступны новые журналистские задания."),
                
-            ("nsp_newsp_book_p04::\"Стань писателем для любителей.\"",           300, "08_newspaper_scenario/books/Book_p4.png", "Эта книга описывает основы писательского ремесла.",
+            ("nsp_newsp_book_p04::\"Стань писателем для любителей.\"",           300, "08_newspaper_scenario/books/book.png", "Эта книга описывает основы писательского ремесла.",
                 "Книга повысила мастерство написания статей. Кроме того, благодаря ей доступны новые журналистские задания."),
                 
-            ("nsp_newsp_book_p05a::\"Стань писателем для продвинутых. Том 1\"",           600, "08_newspaper_scenario/books/Book_p5a.png", "Эта книга описывает принципы писательского ремесла.",
+            ("nsp_newsp_book_p05a::\"Стань писателем для продвинутых. Том 1\"",           600, "08_newspaper_scenario/books/book.png", "Эта книга описывает принципы писательского ремесла.",
                 "Книга повысила мастерство написания статей. Кроме того, благодаря ей доступны новые журналистские задания."),
                 
-            ("nsp_newsp_book_p05b::\"Стань писателем для продвинутых. Том 2\"",           800, "08_newspaper_scenario/books/Book_p5b.png", "Эта книга описывает принципы писательского ремесла.",
+            ("nsp_newsp_book_p05b::\"Стань писателем для продвинутых. Том 2\"",           800, "08_newspaper_scenario/books/book.png", "Эта книга описывает принципы писательского ремесла.",
                 "Книга повысила мастерство написания статей. Кроме того, благодаря ей доступны новые журналистские задания."),
                 
-            ("nsp_newsp_book_p06a::\"Стань писателем для экспертов. Том 1\"",           1200, "08_newspaper_scenario/books/Book_p6a.png", "Эта книга описывает секреты писательского ремесла.",
+            ("nsp_newsp_book_p06a::\"Стань писателем для экспертов. Том 1\"",           1200, "08_newspaper_scenario/books/book.png", "Эта книга описывает секреты писательского ремесла.",
                 "Книга повысила мастерство написания статей. Кроме того, благодаря ей доступны новые журналистские задания."),
                 
-            ("nsp_newsp_book_p06b::\"Стань писателем для экспертов. Том 2\"",           1500, "08_newspaper_scenario/books/Book_p6b.png", "Эта книга описывает секреты писательского ремесла.",
+            ("nsp_newsp_book_p06b::\"Стань писателем для экспертов. Том 2\"",           1500, "08_newspaper_scenario/books/book.png", "Эта книга описывает секреты писательского ремесла.",
                 "Книга повысила мастерство написания статей. Кроме того, благодаря ей доступны новые журналистские задания."),
                 ]
 
@@ -659,6 +745,22 @@ image blk50 = im.Alpha("blackfade.png", 0.5)
 
 
 
+    ### DAPHNE ANIMATIONS ###
+
+image dap_fap:
+    "03_hp/24_daphne/dap_fap_a1.png"
+    pause 0.2
+    "03_hp/24_daphne/dap_fap_a2.png"
+    pause 0.2
+    "03_hp/24_daphne/dap_fap_a3.png"
+    pause 0.2
+    "03_hp/24_daphne/dap_fap_a4.png"
+    pause 0.2
+    "03_hp/24_daphne/dap_fap_a5.png"
+    pause 0.2
+    "03_hp/24_daphne/dap_fap_a6.png"
+    pause 0.2
+    repeat
 
     ### INTRO MOVIE ANIMATIONS ###
 
@@ -2789,7 +2891,7 @@ image undershirt_cum_ani:
     repeat
     
 ### HERMIONE HANDJOB CUMMING ON THE SHIRT ###
-image on_shirt_cum_ani:
+image on_shirt_cum_ani: # Сделать дубль для Дафны
     "03_hp/08_animation_02/15_cum_00.png"
     pause.1
     "03_hp/08_animation_02/15_cum_01.png"
@@ -3574,469 +3676,7 @@ image heal_02: # Smaller version of heal. 40% of the original size.
     pause.06
     "magic_02/heal18.png"
     pause.06     
-    
-    
-image slap:
-    "slave/slap01.png"
-    pause.06
-    "slave/slap02.png"
-    pause.06
-    "slave/slap03.png"
-    pause.06
-    "slave/slap04.png"
-    pause.06
-    "slave/slap05.png"
-    pause.06
-    "slave/slap06.png"
-    pause.06
-    "slave/slap07.png"
-    pause.06
-        
-image slave:
-    "slave/slave01.png"
-    pause.02
-    "slave/slave01_02.png"
-    pause.02
-    "slave/slave01_03.png"
-    pause.02
-    "slave/slave01_04.png"
-    pause.2
-    "slave/slave01_03.png"
-    pause.02
-    "slave/slave01_02.png"
-    pause.02
-    "slave/slave01.png"
-    pause 5
-    repeat
 
-
-
-    
-    
-image akaani:
-    "akaani/akaani01.png"
-    pause.1
-    "akaani/akaani02.png"
-    pause.1
-    "akaani/akaani03.png"
-    pause.1
-    "akaani/akaani04.png"
-    pause.1
-    "akaani/akaani05.png"
-    pause.1
-    "akaani/akaani06.png"
-    pause.1
-    repeat 
-
-image akaani2:
-    "akaani2/aka_ani2_01.png"
-    pause.2
-    "akaani2/aka_ani2_02.png"
-    pause.2
-    "akaani2/aka_ani2_03.png"
-    pause.2
-    "akaani2/aka_ani2_04.png"
-    pause.2
-    repeat 
-    
-
-    
-    
-
-
-
-
-
-
-image schooled:
-    "slavem/schooled01.png"
-    pause 1
-    "slavem/schooled02.png"
-    pause.1
-    "slavem/schooled01.png"
-    pause 3
-    "slavem/schooled02.png"
-    pause.1
-    "slavem/schooled01.png"
-    pause.1
-    "slavem/schooled02.png"
-    pause.1
-    "slavem/schooled01.png"
-    pause 5
-    repeat
-image obedience01:
-    "slavem/obed01_1.png"
-    pause 1
-    "slavem/obed01_2.png"
-    pause.1
-    "slavem/obed01_1.png"
-    pause 3
-    "slavem/obed01_2.png"
-    pause.1
-    "slavem/obed01_1.png"
-    pause.1
-    "slavem/obed01_2.png"
-    pause.1
-    "slavem/obed01_1.png"
-    pause 5
-    repeat
-image obedience01b:
-    "slavem/obed01_1b.png"
-    pause 1
-    "slavem/obed01_2b.png"
-    pause.1
-    "slavem/obed01_1b.png"
-    pause 3
-    "slavem/obed01_2b.png"
-    pause.1
-    "slavem/obed01_1b.png"
-    pause.1
-    "slavem/obed01_2b.png"
-    pause.1
-    "slavem/obed01_1b.png"
-    pause 5
-    repeat
-image obedience02:
-    "slavem/obed02_1.png"
-    pause 1
-    "slavem/obed02_2.png"
-    pause.1
-    "slavem/obed02_1.png"
-    pause 3
-    "slavem/obed02_2.png"
-    pause.1
-    "slavem/obed02_1.png"
-    pause.1
-    "slavem/obed02_2.png"
-    pause.1
-    "slavem/obed02_1.png"
-    pause 5
-    repeat
-image obedience03:
-    "slavem/obed03_1.png"
-    pause 1
-    "slavem/obed03_2.png"
-    pause.1
-    "slavem/obed03_1.png"
-    pause 3
-    "slavem/obed03_2.png"
-    pause.1
-    "slavem/obed03_1.png"
-    pause.1
-    "slavem/obed03_2.png"
-    pause.1
-    "slavem/obed03_1.png"
-    pause 3
-    repeat
-    
-    
-image sleeping:
-    "slavem/sleep01.png"
-    pause.1
-    "slavem/sleep02.png"
-    pause.1
-    "slavem/sleep03.png"
-    pause.1
-    "slavem/sleep04.png"
-    pause.1
-    "slavem/sleep05.png"
-    pause.1
-    repeat
-    
-image sleeping2:
-    "slavem/sleep201.png"
-    pause.15
-    "slavem/sleep202.png"
-    pause.15
-    "slavem/sleep203.png"
-    pause.15
-    "slavem/sleep204.png"
-    pause.15
-    "slavem/sleep205.png"
-    pause.15
-    repeat
-    
-image courage: 
-    "slavem/courage01.png"
-    pause.3
-    "slavem/courage02.png"
-    pause.3
-    repeat
-    
-image banana03: 
-    "slavem/banana03.png"
-    pause.4
-    "slavem/banana04.png"
-    pause.4
-    repeat    
-
-image rest03: 
-    "slavem/rest01.png"   
-    pause 2
-    "slavem/rest05.png"
-    pause.1
-    "slavem/rest01.png"
-    pause.1
-    "slavem/rest05.png"
-    pause.1
-    "slavem/rest01.png"
-    pause 10
-    "slavem/rest05.png"
-    pause.1
-    "slavem/rest01.png"
-    pause 5
-    repeat
-    
-image btits:
-    "slavem/btits01.png"
-    pause 3
-    "slavem/btits02.png"
-    pause 1
-    "slavem/btits01.png"
-    pause 1
-    "slavem/btits03.png"
-    pause.08
-    "slavem/btits04.png"
-    pause.08
-    "slavem/btits05.png"
-    pause.08
-    "slavem/btits06.png"
-    pause.08
-    "slavem/btits07.png"
-    pause.08
-    "slavem/btits08.png"
-    pause.08
-    "slavem/btits09.png"
-    pause.04
-    "slavem/btits10.png"
-    pause 4
-    "slavem/btits09.png"
-    pause.08
-    "slavem/btits10.png"
-    pause.08
-    repeat
-
-
-
-############################################
-#######EMOTIONS #^_^# ########################
-############################################
-
-image emo01:
-    "emotions/ex01.png"
-    pause.1
-    "emotions/ex02.png"
-    pause.1
-    "emotions/ex03.png"
-    pause.1
-    "emotions/ex04.png"
-    pause 2
-    "emotions/ex01.png"
-    pause.1
-    "emotions/ex00.png"
-    
-image emo02:
-    "emotions/exl01.png"
-    pause.05
-    "emotions/exl02.png"
-    pause.05
-    "emotions/exl03.png"
-    pause.05
-    "emotions/exl04.png"
-    pause.05
-    "emotions/exl05.png"
-    pause.05
-    "emotions/exl06.png"
-
-image emoq:
-    "emotions/q1.png"
-    pause.05
-    "emotions/q2.png"
-    pause.05
-    "emotions/q3.png"
-    pause.05
-    "emotions/q4.png"
-    pause.05
-    "emotions/q1.png"
-    pause.05
-    "emotions/q2.png"
-    pause.05
-    "emotions/q3.png"
-    pause.05
-    "emotions/q4.png"
-
-image emom:
-    "emotions/emo00.png"
-    pause.08
-    "emotions/emo01.png"
-
-image excl:
-    "emotions/excl01.png"
-    pause.08
-    "emotions/excl02.png"
-    pause.08
-    "emotions/excl03.png"
-    pause.08
-    "emotions/excl04.png"
-    pause.08
-    
-image qu:
-    "emotions/que1.png"
-    pause.08    
-    "emotions/que2.png"
-    pause.08 
-    "emotions/que3.png"
-    pause.08 
-    "emotions/que4.png"
-    pause.08 
-    "emotions/que5.png"
-    pause.08 
-    "emotions/que6.png"
-    
-image an:
-    "emotions/an1.png"
-    pause.2
-    "emotions/an2.png"
-    pause.2
-    "emotions/an3.png"
-    pause.2
-    "emotions/an2.png"
-    pause.2
-    repeat
-    
-image sal:
-    "emotions/s1.png"
-    pause.08
-    "emotions/s2.png"
-    pause.2
-    "emotions/s3.png"
-    pause.08
-    "emotions/s4.png"
-    pause.2
-    "emotions/s5.png"
-    pause.08
-    "emotions/s6.png"
-    pause 1
-    "emotions/00.png"
-    pause.08
-    repeat
-    
-image th:
-    "emotions/t1.png"
-    pause.2
-    "emotions/t2.png"
-    pause.2
-    "emotions/t3.png"
-    pause.2
-    "emotions/t4.png"
-    pause.2
-    repeat
-
-image emo7:
-    "emotions/emotion00.png"
-    pause.2
-    "emotions/emotion01.png"
-    pause.2
-    "emotions/emotion00.png"
-    pause.08
-    "emotions/emotion01.png"
-    pause.08
-    "emotions/emotion00.png"
-    pause.08
-    "emotions/emotion01.png"
-    pause.08
-    
-image emo8:
-    "emotions/emotion00.png"
-    pause.2
-    "emotions/emotion03.png"
-    pause.2
-    "emotions/emotion00.png"
-    pause.08
-    "emotions/emotion03.png"
-    pause.08
-    "emotions/emotion00.png"
-    pause.08
-    "emotions/emotion03.png"
-    pause.08
-    
-image sur:
-    "emotions/sur1.png"
-    pause.08
-    "emotions/sur2.png"
-    pause.08
-    "emotions/sur3.png"
-    pause.08
-    "emotions/sur4.png"
-    pause.08
-    "emotions/sur5.png"
-    pause.08
-    "emotions/sur6.png"
-    pause.08
- 
-###################
-####SEX############
-###################
-
-image hjob:
-    "ani01/hj01.png"
-    pause.08
-    "ani01/hj02.png"
-    pause.08
-    "ani01/hj03.png"
-    pause.08
-    "ani01/hj04.png"
-    pause.08
-    "ani01/hj05.png"
-    pause.08
-    repeat
-
-image hjobcum:
-    "ani01/cum01.png"
-    pause.08
-    "ani01/cum02.png"
-    pause.08
-    "ani01/cum03.png"
-    pause.08
-    "ani01/cum04.png"
-    pause.08
-    "ani01/cum05.png"
-    pause.08
-    "ani01/cum06.png"
-    pause.08
-    "ani01/cum07.png"
-    pause.08
-    "ani01/cum08.png"
-    pause.08
-    "ani01/cum09.png"
-    pause.08
-    "ani01/cum10.png"
-    pause.08
-    "ani01/cum11d.png"
-    pause 1
-    repeat
-    
-image hjobover:
-    "ani01/ac01.png"
-    pause.08
-    "ani01/ac02.png"
-    pause.08
-    "ani01/ac03.png"
-    pause.08
-    "ani01/ac4.png"
-    pause.08
-    "ani01/ac5.png"
-    pause.08
-    "ani01/ac6d.png"
-    pause 2
-    repeat
-    
-image heart:
-    "ani01/h01.png"
-    pause.1
-    "ani01/h02.png"
-    pause.1
-    repeat
     
 ### DR'S Newspaper ooo ###
 
@@ -4111,358 +3751,11 @@ image side aka4 = "aka4.png"
 image side aka5 = "aka5.png"
 image side aka6 = "aka6.png"
 image side aka7 = "aka7.png"
-image side jaf1 = "jaf.png"
-image side jaf2 = "jaf2.png"
-image side jaf3 = "jaf3.png"
-image side jaf4 = "jaf4.png"
-image side jaf5 = "jaf5.png"
-image side jaf6 = "jaf6.png"
-image side jaf7 = "jaf7.png"
-image side jaf8 = "jaf8.png"
-image side jaf9 = "jaf9.png"
-image side jaf10 = "jaf10.png"
-image side jaf8b = "jaf8b.png"
-image side jaf9b = "jaf9b.png"
-image side jaf10b = "jaf10b.png"
-image side jaf8c = "jaf8c.png"
-image side jaf9c = "jaf9c.png"
-image side jaf10c = "jaf10c.png"
-image side jas1 = "jas1.png"
-image side jas2 = "jas2.png"
-image side jas3 = "jas3.png"
-image side jas4 = "jas4.png"
-image side jas5 = "jas5.png"
-image side jas6 = "jas6.png"
-image side jas7 = "jas7.png"
-image side jas8 = "jas8.png"
-image side jas9 = "jas9.png"
-image side jas10 = "jas10.png"
-image side jas11 = "jas11.png"
-image side jas12 = "jas12.png"
-image side jas13 = "jas13.png"
-image side jas14 = "jas14.png"
-image side jas15 = "jas15.png"
-image side jas16 = "jas16.png"
-image side jas17 = "jas17.png"
-image side jas18 = "jas18.png"
-image side jas19 = "jas19.png"
-image side jas20 = "jas20.png"
-image side jas21 = "jas21.png"
-image side jas1b = "jas1b.png"
-image side jas2b = "jas2b.png"
-image side jas3b = "jas3b.png"
-image side jas4b = "jas4b.png"
-image side jas5b = "jas5b.png"
-image side jas6b = "jas6b.png"
-image side jas7b = "jas7b.png"
-image side jas8b = "jas8b.png"
-image side jas9b = "jas9b.png"
-image side jas10b = "jas10b.png"
-image side jas11b = "jas11b.png"
-image side jas12b = "jas12b.png"
-image side jas13b = "jas13b.png"
-image side jas14b = "jas14b.png"
-image side jas15b = "jas15b.png"
-image side jas16b = "jas16b.png"
-image side jas17b = "jas17b.png"
-image side jas18b = "jas18b.png"
-image side jas19b = "jas19b.png"
-image side jas20b = "jas20b.png"
-image side jas21b = "jas21b.png"
-image side jas1c = "jas1c.png"
-image side jas2c = "jas2c.png"
-image side jas3c = "jas3c.png"
-image side jas4c = "jas4c.png"
-image side jas5c = "jas5c.png"
-image side jas6c = "jas6c.png"
-image side jas7c = "jas7c.png"
-image side jas8c = "jas8c.png"
-image side jas9c = "jas9c.png"
-image side jas10c = "jas10c.png"
-image side jas11c = "jas11c.png"
-image side jas12c = "jas12c.png"
-image side jas13c = "jas13c.png"
-image side jas14c = "jas14c.png"
-image side jas15c = "jas15c.png"
-image side jas16c = "jas16c.png"
-image side jas17c = "jas17c.png"
-image side jas18c = "jas18c.png"
-image side jas19c = "jas19c.png"
-image side jas20c = "jas20c.png"
-
 image side dum1 = "dum_01.png"
 image side dum2 = "dum_02.png"
 image side dum3 = "dum_03.png"
 image side dum4 = "dum_04.png"
 image side dum5 = "dum_05.png"
-
-
-## CHARACTERS 
-
-define sch = Character('Rose the teacher',
-    color="#402313",
-    window_right_padding=240,
-    show_side_image=Image("slavem/school.png", xalign=0.985, yalign=0.98),
-    show_two_window=True,
-    show_who_xalign=0.5,
-    ctc="ctc3",
-    ctc_position="fixed")
-
-define sch2 = Character('Azalea the store owner',
-    color="#402313",
-    window_right_padding=240,
-    show_side_image=Image("slavem/school2.png", xalign=0.985, yalign=0.98),
-    show_two_window=True,
-    show_who_xalign=0.5,
-    ctc="ctc3",
-    ctc_position="fixed")
-
-define sch2n = Character('Azalea the store owner',
-    color="#402313",
-    window_right_padding=240,
-    show_side_image=Image("slavem/school2n.png", xalign=0.985, yalign=0.98),
-    show_two_window=True,
-    show_who_xalign=0.5,
-    ctc="ctc3",
-    ctc_position="fixed")
-
-
-define sch3 = Character('Lily the mamma',
-    color="#402313",
-    window_right_padding=270,
-    show_side_image=Image("slavem/school3.png", xalign=0.985, yalign=0.98),
-    show_two_window=True,
-    show_who_xalign=0.5,
-    ctc="ctc3",
-    ctc_position="fixed")
-
-define sch300 = Character('Lily the mamma',
-    color="#402313",
-    window_right_padding=70,
-    show_two_window=True,
-    show_who_xalign=0.5,
-    ctc="ctc3",
-    ctc_position="fixed")
-
-define sch4 = Character('Rasul captain of the guard',
-    color="#402313",
-    window_right_padding=300,
-    show_side_image=Image("slavem/school4.png", xalign=0.985, yalign=0.98),
-    show_two_window=True,
-    show_who_xalign=0.5,
-    ctc="ctc3",
-    ctc_position="fixed")
-
-define sch5 = Character('Balsam the merchant',
-    color="#402313",
-    window_right_padding=300,
-    show_side_image=Image("slavem/school5.png", xalign=1.0, yalign=0.98),
-    show_two_window=True,
-    show_who_xalign=0.5,
-    ctc="ctc3",
-    ctc_position="fixed")
-
-define sch600 = Character('Maslab the inn keeper',
-    color="#402313",
-    window_right_padding=70,
-    show_two_window=True,
-    show_who_xalign=0.5,
-    ctc="ctc3",
-    ctc_position="fixed")
-
-define sch6 = Character('Maslab the inn keeper',
-    color="#402313",
-    window_right_padding=270,
-    show_side_image=Image("slavem/school6.png", xalign=1.0, yalign=0.0),
-    show_two_window=True,
-    show_who_xalign=0.5,
-    ctc="ctc3",
-    ctc_position="fixed")
-
-define sch6_2 = Character('Maslab the inn keeper',
-    color="#402313",
-    window_right_padding=270,
-    show_side_image=Image("slavem/school9_2.png", xalign=1.0, yalign=0.0),
-    show_two_window=True,
-    show_who_xalign=0.5,
-    ctc="ctc3",
-    ctc_position="fixed")
-
-define sch6_3 = Character('Maslab the inn keeper',
-    color="#402313",
-    window_right_padding=270,
-    show_side_image=Image("slavem/school9_3.png", xalign=1.0, yalign=0.0),
-    show_two_window=True,
-    show_who_xalign=0.5,
-    ctc="ctc3",
-    ctc_position="fixed")
-
-define sch6_4 = Character('Maslab the inn keeper',
-    color="#402313",
-    window_right_padding=270,
-    show_side_image=Image("slavem/school9_4.png", xalign=1.0, yalign=0.0),
-    show_two_window=True,
-    show_who_xalign=0.5,
-    ctc="ctc3",
-    ctc_position="fixed")
-
-define sch62 = Character('Maslab the inn keeper',
-    color="#402313",
-    window_right_padding=270,
-    show_side_image=Image("slavem/school9.png", xalign=1.0, yalign=0.0),
-    show_two_window=True,
-    show_who_xalign=0.5,
-    ctc="ctc3",
-    ctc_position="fixed")
-
-define sch6_5 = Character('Maslab the inn keeper',
-    color="#402313",
-    window_right_padding=270,
-    show_side_image=Image("slavem/school9_5.png", xalign=1.0, yalign=0.0),
-    show_two_window=True,
-    show_who_xalign=0.5,
-    ctc="ctc3",
-    ctc_position="fixed")
-
-define sch6_6 = Character('Maslab the inn keeper',
-    color="#402313",
-    window_right_padding=270,
-    show_side_image=Image("slavem/school9_6.png", xalign=1.0, yalign=0.0),
-    show_two_window=True,
-    show_who_xalign=0.5,
-    ctc="ctc3",
-    ctc_position="fixed")
-
-define sch7 = Character('Crocus the homeless',
-    color="#402313",
-    window_right_padding=270,
-    show_side_image=Image("slavem/school7.png", xalign=1.0, yalign=0.0),
-    show_two_window=True,
-    show_who_xalign=0.5,
-    ctc="ctc3",
-    ctc_position="fixed")
-
-define sch8 = Character('Crocus the homeless',
-    color="#402313",
-    window_right_padding=270,
-    show_side_image=Image("slavem/school8.png", xalign=1.0, yalign=0.0),
-    show_two_window=True,
-    show_who_xalign=0.5,
-    ctc="ctc3",
-    ctc_position="fixed")
-
-define sch9 = Character('Dahlia the whore',
-    color="#402313",
-    window_right_padding=270,
-    show_side_image=Image("slavem/school00.png", xalign=1.0, yalign=0.0),
-    show_two_window=True,
-    show_who_xalign=0.5,
-    ctc="ctc3",
-    ctc_position="fixed")
-
-define sch900 = Character('Dahlia the whore',
-    color="#402313",
-    window_right_padding=270,
-    show_two_window=True,
-    show_who_xalign=0.5,
-    ctc="ctc3",
-    ctc_position="fixed")
-
-
-
-define sch1000 = Character('Лола',
-    color="#402313",
-    window_right_padding=70,
-    show_two_window=True,
-    show_who_xalign=0.5,
-    ctc="ctc3",
-    ctc_position="fixed")
-
-define aka1 = Character('none',
-    color="#402313",
-    window_right_padding=270,
-    show_side_image=Image("slavem/aka1.png", xalign=0.0, yalign=0.0),
-    show_two_window=True,
-    show_who_xalign=0.5,
-    ctc="ctc3",
-    ctc_position="fixed")
-
-define sch10 = Character('Лола',
-    color="#402313",
-    window_right_padding=270,
-    show_side_image=Image("slavem/school00.png", xalign=1.0, yalign=0.0),
-    show_two_window=True,
-    show_who_xalign=0.5,
-    ctc="ctc3",
-    ctc_position="fixed")
-
-
-
-define sch10_1 = Character('Лола',
-    color="#402313",
-    window_right_padding=270,
-    show_side_image=Image("slavem/school00_1.png", xalign=1.0, yalign=0.0),
-    show_two_window=True,
-    show_who_xalign=0.5,
-    ctc="ctc3",
-    ctc_position="fixed")
-
-define sch10_2 = Character('Лола',
-    color="#402313",
-    window_right_padding=270,
-    show_side_image=Image("slavem/school00_2.png", xalign=1.0, yalign=0.0),
-    show_two_window=True,
-    show_who_xalign=0.5,
-    ctc="ctc3",
-    ctc_position="fixed")
-
-define sch10_3 = Character('Лола',
-    color="#402313",
-    window_right_padding=270,
-    show_side_image=Image("slavem/school00_3.png", xalign=1.0, yalign=0.0),
-    show_two_window=True,
-    show_who_xalign=0.5,
-    ctc="ctc3",
-    ctc_position="fixed")
-
-define sch10_4 = Character('Лола',
-    color="#402313",
-    window_right_padding=270,
-    show_side_image=Image("slavem/school00_4.png", xalign=1.0, yalign=0.0),
-    show_two_window=True,
-    show_who_xalign=0.5,
-    ctc="ctc3",
-    ctc_position="fixed")
-
-define sch10_5 = Character('Лола',
-    color="#402313",
-    window_right_padding=270,
-    show_side_image=Image("slavem/school00_5.png", xalign=1.0, yalign=0.0),
-    show_two_window=True,
-    show_who_xalign=0.5,
-    ctc="ctc3",
-    ctc_position="fixed")
-
-
-
-
-
-
-define dah = Character('Лола',
-    color="#402313",
-    window_right_padding=90,
-    show_two_window=True,
-    show_who_xalign=0.5,
-    ctc="ctc3",
-    ctc_position="fixed")
-
-
-
-
-
-
-
-
 
 define dahr = Character(None,
     color="#402313",
@@ -4472,612 +3765,8 @@ define dahr = Character(None,
     show_who_xalign=0.5,
     ctc="ctc4",
     ctc_position="fixed")
-
-define raj02 = Character('Rajah',
-    color="#402313",
-    window_right_padding=270,
-    show_side_image=Image("rajahface/raj02.png", xalign=1.0, yalign=0.0),
-    show_two_window=True,
-    show_who_xalign=0.5,
-    ctc="ctc4",
-    ctc_position="fixed")
-
-define raj03 = Character('Rajah',
-    color="#402313",
-    window_right_padding=270,
-    show_side_image=Image("rajahface/raj03.png", xalign=1.0, yalign=0.0),
-    show_two_window=True,
-    show_who_xalign=0.5,
-    ctc="ctc4",
-    ctc_position="fixed")
-
-define raj04 = Character('Rajah',
-    color="#402313",
-    window_right_padding=270,
-    show_side_image=Image("rajahface/raj04.png", xalign=1.0, yalign=0.0),
-    show_two_window=True,
-    show_who_xalign=0.5,
-    ctc="ctc4",
-    ctc_position="fixed")
-
-
-
-define jas01 = Character('Jasmine',
-    color="#402313",
-    window_right_padding=270,
-    show_side_image=Image("jasface/j01.png", xalign=1.0, yalign=0.0),
-    show_two_window=True,
-    show_who_xalign=0.5,
-    ctc="ctc4",
-    ctc_position="fixed")
-
-define jas02 = Character('Jasmine',
-    color="#402313",
-    window_right_padding=270,
-    show_side_image=Image("jasface/j02.png", xalign=1.0, yalign=0.0),
-    show_two_window=True,
-    show_who_xalign=0.5,
-    ctc="ctc4",
-    ctc_position="fixed")
-
-
-define jas03 = Character('Jasmine',
-    color="#402313",
-    window_right_padding=270,
-    show_side_image=Image("jasface/j03.png", xalign=1.0, yalign=0.0),
-    show_two_window=True,
-    show_who_xalign=0.5,
-    ctc="ctc4",
-    ctc_position="fixed")
-
-
-define jas04 = Character('Jasmine',
-    color="#402313",
-    window_right_padding=270,
-    show_side_image=Image("jasface/j04.png", xalign=1.0, yalign=0.0),
-    show_two_window=True,
-    show_who_xalign=0.5,
-    ctc="ctc4",
-    ctc_position="fixed")
-
-define jas05 = Character('Jasmine',
-    color="#402313",
-    window_right_padding=270,
-    show_side_image=Image("jasface/j05.png", xalign=1.0, yalign=0.0),
-    show_two_window=True,
-    show_who_xalign=0.5,
-    ctc="ctc4",
-    ctc_position="fixed")
-
-define jas06 = Character('Jasmine',
-    color="#402313",
-    window_right_padding=270,
-    show_side_image=Image("jasface/j06.png", xalign=1.0, yalign=0.0),
-    show_two_window=True,
-    show_who_xalign=0.5,
-    ctc="ctc4",
-    ctc_position="fixed")
-
-define jas07 = Character('Jasmine',
-    color="#402313",
-    window_right_padding=270,
-    show_side_image=Image("jasface/j07.png", xalign=1.0, yalign=0.0),
-    show_two_window=True,
-    show_who_xalign=0.5,
-    ctc="ctc4",
-    ctc_position="fixed")
-
-define jas08 = Character('Jasmine',
-    color="#402313",
-    window_right_padding=270,
-    show_side_image=Image("jasface/j08.png", xalign=1.0, yalign=0.0),
-    show_two_window=True,
-    show_who_xalign=0.5,
-    ctc="ctc4",
-    ctc_position="fixed")
-
-define jas09 = Character('Jasmine',
-    color="#402313",
-    window_right_padding=270,
-    show_side_image=Image("jasface/j09.png", xalign=1.0, yalign=0.0),
-    show_two_window=True,
-    show_who_xalign=0.5,
-    ctc="ctc4",
-    ctc_position="fixed")
-
-define jas10 = Character('Jasmine',
-    color="#402313",
-    window_right_padding=270,
-    show_side_image=Image("jasface/j10.png", xalign=1.0, yalign=0.0),
-    show_two_window=True,
-    show_who_xalign=0.5,
-    ctc="ctc4",
-    ctc_position="fixed")
-
-define jas11 = Character('Jasmine',
-    color="#402313",
-    window_right_padding=270,
-    show_side_image=Image("jasface/j11.png", xalign=1.0, yalign=0.0),
-    show_two_window=True,
-    show_who_xalign=0.5,
-    ctc="ctc4",
-    ctc_position="fixed")
-
-define jas12 = Character('Jasmine',
-    color="#402313",
-    window_right_padding=270,
-    show_side_image=Image("jasface/j12.png", xalign=1.0, yalign=0.0),
-    show_two_window=True,
-    show_who_xalign=0.5,
-    ctc="ctc4",
-    ctc_position="fixed")
-
-define jas13 = Character('Jasmine',
-    color="#402313",
-    window_right_padding=270,
-    show_side_image=Image("jasface/j13.png", xalign=1.0, yalign=0.0),
-    show_two_window=True,
-    show_who_xalign=0.5,
-    ctc="ctc4",
-    ctc_position="fixed")
-
-define jas14 = Character('Jasmine',
-    color="#402313",
-    window_right_padding=270,
-    show_side_image=Image("jasface/j14.png", xalign=1.0, yalign=0.0),
-    show_two_window=True,
-    show_who_xalign=0.5,
-    ctc="ctc4",
-    ctc_position="fixed")
-
-define jas15 = Character('Jasmine',
-    color="#402313",
-    window_right_padding=270,
-    show_side_image=Image("jasface/j15.png", xalign=1.0, yalign=0.0),
-    show_two_window=True,
-    show_who_xalign=0.5,
-    ctc="ctc4",
-    ctc_position="fixed")
-
-define jas16 = Character('Jasmine',
-    color="#402313",
-    window_right_padding=270,
-    show_side_image=Image("jasface/j16.png", xalign=1.0, yalign=0.0),
-    show_two_window=True,
-    show_who_xalign=0.5,
-    ctc="ctc4",
-    ctc_position="fixed")
-
-define jas17 = Character('Jasmine',
-    color="#402313",
-    window_right_padding=270,
-    show_side_image=Image("jasface/j17.png", xalign=1.0, yalign=0.0),
-    show_two_window=True,
-    show_who_xalign=0.5,
-    ctc="ctc4",
-    ctc_position="fixed")
-
-define jas18 = Character('Jasmine',
-    color="#402313",
-    window_right_padding=270,
-    show_side_image=Image("jasface/j18.png", xalign=1.0, yalign=0.0),
-    show_two_window=True,
-    show_who_xalign=0.5,
-    ctc="ctc4",
-    ctc_position="fixed")
-
-define jas19 = Character('Jasmine',
-    color="#402313",
-    window_right_padding=270,
-    show_side_image=Image("jasface/j19.png", xalign=1.0, yalign=0.0),
-    show_two_window=True,
-    show_who_xalign=0.5,
-    ctc="ctc4",
-    ctc_position="fixed")
-
-define jas20 = Character('Jasmine',
-    color="#402313",
-    window_right_padding=270,
-    show_side_image=Image("jasface/j20.png", xalign=1.0, yalign=0.0),
-    show_two_window=True,
-    show_who_xalign=0.5,
-    ctc="ctc4",
-    ctc_position="fixed")
-
-define jas21 = Character('Jasmine',
-    color="#402313",
-    window_right_padding=270,
-    show_side_image=Image("jasface/j21.png", xalign=1.0, yalign=0.0),
-    show_two_window=True,
-    show_who_xalign=0.5,
-    ctc="ctc4",
-    ctc_position="fixed")
-
-define jas22 = Character('Jasmine',
-    color="#402313",
-    window_right_padding=270,
-    show_side_image=Image("jasface/j22.png", xalign=1.0, yalign=0.0),
-    show_two_window=True,
-    show_who_xalign=0.5,
-    ctc="ctc4",
-    ctc_position="fixed")
-
-define jas23 = Character('Jasmine',
-    color="#402313",
-    window_right_padding=270,
-    show_side_image=Image("jasface/j23.png", xalign=1.0, yalign=0.0),
-    show_two_window=True,
-    show_who_xalign=0.5,
-    ctc="ctc4",
-    ctc_position="fixed")
-
-define jas24 = Character('Jasmine',
-    color="#402313",
-    window_right_padding=270,
-    show_side_image=Image("jasface/j24.png", xalign=1.0, yalign=0.0),
-    show_two_window=True,
-    show_who_xalign=0.5,
-    ctc="ctc4",
-    ctc_position="fixed")
-
-define jas25 = Character('Jasmine',
-    color="#402313",
-    window_right_padding=270,
-    show_side_image=Image("jasface/j25.png", xalign=1.0, yalign=0.0),
-    show_two_window=True,
-    show_who_xalign=0.5,
-    ctc="ctc4",
-    ctc_position="fixed")
-
-
-define jas26 = Character('Jasmine',
-    color="#402313",
-    window_right_padding=270,
-    show_side_image=Image("jasface/j26.png", xalign=1.0, yalign=0.0),
-    show_two_window=True,
-    show_who_xalign=0.5,
-    ctc="ctc4",
-    ctc_position="fixed")
-
-define jas27 = Character('Jasmine',
-    color="#402313",
-    window_right_padding=270,
-    show_side_image=Image("jasface/j27.png", xalign=1.0, yalign=0.0),
-    show_two_window=True,
-    show_who_xalign=0.5,
-    ctc="ctc4",
-    ctc_position="fixed")
-
-
-define jas28 = Character('Jasmine',
-    color="#402313",
-    window_right_padding=270,
-    show_side_image=Image("jasface/j28.png", xalign=1.0, yalign=0.0),
-    show_two_window=True,
-    show_who_xalign=0.5,
-    ctc="ctc4",
-    ctc_position="fixed")
-
-define jas29 = Character('Jasmine',
-    color="#402313",
-    window_right_padding=270,
-    show_side_image=Image("jasface/j29.png", xalign=1.0, yalign=0.0),
-    show_two_window=True,
-    show_who_xalign=0.5,
-    ctc="ctc4",
-    ctc_position="fixed")
-
-
-define jas30 = Character('Jasmine',
-    color="#402313",
-    window_right_padding=270,
-    show_side_image=Image("jasface/j30.png", xalign=1.0, yalign=0.0),
-    show_two_window=True,
-    show_who_xalign=0.5,
-    ctc="ctc4",
-    ctc_position="fixed")
-
-define jas31 = Character('Jasmine',
-    color="#402313",
-    window_right_padding=270,
-    show_side_image=Image("jasface/j31.png", xalign=1.0, yalign=0.0),
-    show_two_window=True,
-    show_who_xalign=0.5,
-    ctc="ctc4",
-    ctc_position="fixed")
-
-define jas32 = Character('Jasmine',
-    color="#402313",
-    window_right_padding=270,
-    show_side_image=Image("jasface/j32.png", xalign=1.0, yalign=0.0),
-    show_two_window=True,
-    show_who_xalign=0.5,
-    ctc="ctc4",
-    ctc_position="fixed")
-
-define jas33 = Character('Jasmine',
-    color="#402313",
-    window_right_padding=270,
-    show_side_image=Image("jasface/j33.png", xalign=1.0, yalign=0.0),
-    show_two_window=True,
-    show_who_xalign=0.5,
-    ctc="ctc4",
-    ctc_position="fixed")
-
-define jas34 = Character('Jasmine',
-    color="#402313",
-    window_right_padding=270,
-    show_side_image=Image("jasface/j34.png", xalign=1.0, yalign=0.0),
-    show_two_window=True,
-    show_who_xalign=0.5,
-    ctc="ctc4",
-    ctc_position="fixed")
-
-
-
-
-
-########################################
-define gh1 = Character('Good Jasmine',
-    color="#402313",
-    window_right_padding=270,
-    show_side_image=Image("02goodevil/gh1.png", xalign=1.0, yalign=0.0),
-    show_two_window=True,
-    show_who_xalign=0.5,
-    ctc="ctc4",
-    ctc_position="fixed")
-
-define gh2 = Character('Good Jasmine',
-    color="#402313",
-    window_right_padding=270,
-    show_side_image=Image("02goodevil/gh2.png", xalign=1.0, yalign=0.0),
-    show_two_window=True,
-    show_who_xalign=0.5,
-    ctc="ctc4",
-    ctc_position="fixed")
-
-define gh3 = Character('Good Jasmine',
-    color="#402313",
-    window_right_padding=270,
-    show_side_image=Image("02goodevil/gh3.png", xalign=1.0, yalign=0.0),
-    show_two_window=True,
-    show_who_xalign=0.5,
-    ctc="ctc4",
-    ctc_position="fixed")
-
-define gh4 = Character('Good Jasmine',
-    color="#402313",
-    window_right_padding=270,
-    show_side_image=Image("02goodevil/gh4.png", xalign=1.0, yalign=0.0),
-    show_two_window=True,
-    show_who_xalign=0.5,
-    ctc="ctc4",
-    ctc_position="fixed")
-
-define gh5 = Character('Good Jasmine',
-    color="#402313",
-    window_right_padding=270,
-    show_side_image=Image("02goodevil/gh5.png", xalign=1.0, yalign=0.0),
-    show_two_window=True,
-    show_who_xalign=0.5,
-    ctc="ctc4",
-    ctc_position="fixed")
-
-
-
-define bh1 = Character('Evil Jasmine',
-    color="#402313",
-    window_right_padding=270,
-    show_side_image=Image("02goodevil/bh1.png", xalign=1.0, yalign=0.0),
-    show_two_window=True,
-    show_who_xalign=0.5,
-    ctc="ctc4",
-    ctc_position="fixed")
-
-define bh2 = Character('Evil Jasmine',
-    color="#402313",
-    window_right_padding=270,
-    show_side_image=Image("02goodevil/bh2.png", xalign=1.0, yalign=0.0),
-    show_two_window=True,
-    show_who_xalign=0.5,
-    ctc="ctc4",
-    ctc_position="fixed")
-
-define bh3 = Character('Evil Jasmine',
-    color="#402313",
-    window_right_padding=270,
-    show_side_image=Image("02goodevil/bh3.png", xalign=1.0, yalign=0.0),
-    show_two_window=True,
-    show_who_xalign=0.5,
-    ctc="ctc4",
-    ctc_position="fixed")
-
-define bh4 = Character('Evil Jasmine',
-    color="#402313",
-    window_right_padding=270,
-    show_side_image=Image("02goodevil/bh4.png", xalign=1.0, yalign=0.0),
-    show_two_window=True,
-    show_who_xalign=0.5,
-    ctc="ctc4",
-    ctc_position="fixed")
-
-define bh5 = Character('Evil Jasmine',
-    color="#402313",
-    window_right_padding=270,
-    show_side_image=Image("02goodevil/bh5.png", xalign=1.0, yalign=0.0),
-    show_two_window=True,
-    show_who_xalign=0.5,
-    ctc="ctc4",
-    ctc_position="fixed")
-
-
-
-define sch12_2 = Character('Madder the City Guard',
-    color="#402313",
-    window_right_padding=270,
-    show_side_image=Image("slavem/school12_2.png", xalign=1.0, yalign=0.0),
-    show_two_window=True,
-    show_who_xalign=0.5,
-    ctc="ctc3",
-    ctc_position="fixed")
-
-define sch13 = Character('Jasmine',
-    color="#402313",
-    window_right_padding=270,
-    show_side_image=Image("slavem/school13.png", xalign=1.0, yalign=0.0),
-    show_two_window=True,
-    show_who_xalign=0.5,
-    ctc="ctc3",
-    ctc_position="fixed")
-
-define sch13_2 = Character('Jasmine',
-    color="#402313",
-    window_right_padding=270,
-    show_side_image=Image("slavem/school13_2.png", xalign=1.0, yalign=0.0),
-    show_two_window=True,
-    show_who_xalign=0.5,
-    ctc="ctc3",
-    ctc_position="fixed")
-
-
-define sch14 = Character(None,
-    color="#402313",
-    window_right_padding=70,
-    window_left_padding=250,
-    show_side_image=Image("test/jas01.png", xalign=0.0, yalign=0.0),
-    show_two_window=True,
-    show_who_xalign=0.5,
-    ctc="ctc3",
-    ctc_position="fixed")
-
-
-define iris = Character(None, window_left_padding=250, image="test/sch11_2.png", color="#402313", ctc="ctc3", ctc_position="fixed")
-
-
-
-define dah1 = Character('Dahlia',
-    color="#402313",
-    window_right_padding=270,
-    show_side_image=Image("dahlia_head/d01.png", xalign=1.0, yalign=0.0),
-    show_two_window=True,
-    show_who_xalign=0.5,
-    ctc="ctc3",
-    ctc_position="fixed")
-
-define dah2 = Character('Dahlia',
-    color="#402313",
-    window_right_padding=270,
-    show_side_image=Image("dahlia_head/d02.png", xalign=1.0, yalign=0.0),
-    show_two_window=True,
-    show_who_xalign=0.5,
-    ctc="ctc3",
-    ctc_position="fixed")
-
-define dah3 = Character('Dahlia',
-    color="#402313",
-    window_right_padding=270,
-    show_side_image=Image("dahlia_head/d03.png", xalign=1.0, yalign=0.0),
-    show_two_window=True,
-    show_who_xalign=0.5,
-    ctc="ctc3",
-    ctc_position="fixed")
-
-define dah4 = Character('Dahlia',
-    color="#402313",
-    window_right_padding=270,
-    show_side_image=Image("dahlia_head/d04.png", xalign=1.0, yalign=0.0),
-    show_two_window=True,
-    show_who_xalign=0.5,
-    ctc="ctc3",
-    ctc_position="fixed")
-
-define dah5 = Character('Dahlia',
-    color="#402313",
-    window_right_padding=270,
-    show_side_image=Image("dahlia_head/d05.png", xalign=1.0, yalign=0.0),
-    show_two_window=True,
-    show_who_xalign=0.5,
-    ctc="ctc3",
-    ctc_position="fixed")
-
-define dah6 = Character('Dahlia',
-    color="#402313",
-    window_right_padding=270,
-    show_side_image=Image("dahlia_head/d06.png", xalign=1.0, yalign=0.0),
-    show_two_window=True,
-    show_who_xalign=0.5,
-    ctc="ctc3",
-    ctc_position="fixed")
-
-define dah7 = Character('Dahlia',
-    color="#402313",
-    window_right_padding=270,
-    show_side_image=Image("dahlia_head/d07.png", xalign=1.0, yalign=0.0),
-    show_two_window=True,
-    show_who_xalign=0.5,
-    ctc="ctc3",
-    ctc_position="fixed")
-
-define dah8 = Character('Dahlia',
-    color="#402313",
-    window_right_padding=270,
-    show_side_image=Image("dahlia_head/d08.png", xalign=1.0, yalign=0.0),
-    show_two_window=True,
-    show_who_xalign=0.5,
-    ctc="ctc3",
-    ctc_position="fixed")
-
-define dah9 = Character('Dahlia',
-    color="#402313",
-    window_right_padding=270,
-    show_side_image=Image("dahlia_head/d09.png", xalign=1.0, yalign=0.0),
-    show_two_window=True,
-    show_who_xalign=0.5,
-    ctc="ctc3",
-    ctc_position="fixed")
-
-define dah10 = Character('Dahlia',
-    color="#402313",
-    window_right_padding=270,
-    show_side_image=Image("dahlia_head/d10.png", xalign=1.0, yalign=0.0),
-    show_two_window=True,
-    show_who_xalign=0.5,
-    ctc="ctc3",
-    ctc_position="fixed")
-
-define dah11 = Character('Dahlia',
-    color="#402313",
-    window_right_padding=270,
-    show_side_image=Image("dahlia_head/d11.png", xalign=1.0, yalign=0.0),
-    show_two_window=True,
-    show_who_xalign=0.5,
-    ctc="ctc3",
-    ctc_position="fixed")
-
-define dah12 = Character('Dahlia',
-    color="#402313",
-    window_right_padding=270,
-    show_side_image=Image("dahlia_head/d12.png", xalign=1.0, yalign=1.0),
-    show_two_window=True,
-    show_who_xalign=0.5,
-    ctc="ctc3",
-    ctc_position="fixed")
-
-###PATREON
-
-
-define pat = Character('silvarius2000',
-    color="#402313",
-    window_right_padding=270,
-    show_side_image=Image("03_hp/11_misc/pat.png", xalign=1.0, yalign=1.0),
-    show_two_window=True,
-    show_who_xalign=0.5,
-    ctc="ctc3",
-    ctc_position="fixed")
-
-
-
-
+    
+## CHARACTERS 
 
 define s = Character(None, color="#402313", ctc="ctc3", ctc_position="fixed")
 define m = Character(None, window_left_padding=200, image="mage", color="#402313", ctc="ctc3", ctc_position="fixed")
@@ -5127,7 +3816,7 @@ init-2:
     $ menu_x = 0.5
 
     
-    image eileen alpha = im.Alpha("slavem/jas09.png", 0.5)
+    
     
     $ teleport = ImageDissolve("id_teleport.png", 1.0, 0)
    
@@ -5139,24 +3828,13 @@ init-2:
     
     $ who = Character('Женский голос', color="#402313", show_two_window=True, ctc="ctc3", ctc_position="fixed")
     $ whom = Character('Мужской голос', color="#402313", show_two_window=True, ctc="ctc3", ctc_position="fixed")
-    $ la = Character('Lara Croft', color="#402313", show_two_window=True, ctc="ctc3", ctc_position="fixed")
-    $ j = Character('Jasmine', color="#402313", show_two_window=True, ctc="ctc3", ctc_position="fixed")
-    $ bj = Character('Evil Jasmine', color="#402313", show_two_window=True, ctc="ctc3", ctc_position="fixed")
-    $ gj = Character('Good Jasmine', color="#402313", show_two_window=True, ctc="ctc3", ctc_position="fixed")
     $ cr1 = Character('Кто-то из толпы', color="#402313", show_two_window=True, ctc="ctc3", ctc_position="fixed")
     $ cr2 = Character('Другой голос из толпы', color="#402313", show_two_window=True, ctc="ctc3", ctc_position="fixed")
     $ cr3 = Character('Женский голос', color="#402313", show_two_window=True, ctc="ctc3", ctc_position="fixed")
-    $ cr4 = Character('somebody named mustafa', color="#402313", show_two_window=True, ctc="ctc3", ctc_position="fixed")
     $ cr5 = Character('Толпа', color="#402313", show_two_window=True, ctc="ctc3", ctc_position="fixed")
     $ cr6 = Character('Несколько голосов сразу', color="#402313", show_two_window=True, ctc="ctc3", ctc_position="fixed")
-    $ ej = Character('Evil Jasmine', color="#402313", show_two_window=True, ctc="ctc3", ctc_position="fixed")
-    $ gj = Character('Good Jasmine', color="#402313", show_two_window=True, ctc="ctc3", ctc_position="fixed")
-    $ a = Character('Aladdin', color="#402313", show_two_window=True, ctc="ctc3", ctc_position="fixed")
-    $ sul = Character('Sultan', color="#402313", show_two_window=True, ctc="ctc3", ctc_position="fixed")
-    $ g3 = Character('Genie', color="#402313", show_two_window=True, ctc="ctc3", ctc_position="fixed")
-    $ ras = Character('Rasul', color="#402313", show_two_window=True, ctc="ctc3", ctc_position="fixed")
     $ who2 = Character('???', color="#402313", show_two_window=True, ctc="ctc3", ctc_position="fixed")
-    $ jaf1 = Character('Jafar', color="#402313", show_two_window=True, ctc="ctc3", ctc_position="fixed")
+    $ g3 = Character('Genie', color="#402313", show_two_window=True, ctc="ctc3", ctc_position="fixed")
     $ fem = Character('Студентка', color="#402313", show_two_window=True, ctc="ctc3", ctc_position="fixed")
     $ mal = Character('Студент # 1', color="#402313", show_two_window=True, ctc="ctc3", ctc_position="fixed")
     $ mal2 = Character('Студент # 2', color="#402313", show_two_window=True, ctc="ctc3", ctc_position="fixed")
@@ -5187,6 +3865,9 @@ init-2:
     $ sna2 = Character('Северус Снейп', color="#402313", window_right_padding=220, show_two_window=True, ctc="ctc3", ctc_position="fixed")  #Text box used for "head only" speech. (Because it has padding).
     $ vol = Character('Лорд Волдеморт', color="#402313", show_two_window=True, ctc="ctc3", ctc_position="fixed")
     $ l = Character('Лола', color="#402313", window_right_padding=230, show_two_window=True, ctc="ctc3", ctc_position="fixed") #Text box used for "head only" speech. (Because it has padding).
+    
+    $ lun = Character('Луна', color="#402313", show_two_window=True, ctc="ctc3", ctc_position="fixed")
+    $ pho = Character('Феникс', color="#402313", show_two_window=True, ctc="ctc3", ctc_position="fixed")
     
 #    $ daph = Character('Дафна', color="#402313", show_two_window=True, ctc="ctc3", ctc_position="fixed")
 #    $ daph2 = Character('Дафна', color="#402313", window_right_padding=220, show_two_window=True, ctc="ctc3", ctc_position="fixed") #Это текстовое окно, оно используется для головы(потому что имеет отступы)

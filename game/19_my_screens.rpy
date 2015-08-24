@@ -25,7 +25,7 @@ screen main_menu_01:
 
     imagebutton: # hat                                                                                 #############################      LRM_HAT         #####################
         xpos 120 
-        ypos 280
+        ypos 67
         focus_mask True
         xanchor "center"
         yanchor "center"
@@ -34,6 +34,20 @@ screen main_menu_01:
 #        hovered [Show("gui_tooltip", my_picture="exclaim_01", my_tt_xpos=130, my_tt_ypos=50) ] 
 #        unhovered [Hide("gui_tooltip")]
         action [Hide("main_menu_01"), Jump("lrm_stats_00")]
+
+
+    imagebutton: # GENIE
+        xpos 217
+        ypos 342
+        focus_mask True
+        xanchor "center"
+        yanchor "center"
+        idle "newanimation"
+        hover "03_hp/05_props/11_genie_02.png"
+        hovered [Show("gui_tooltip", my_picture="exclaim_01", my_tt_xpos=195, my_tt_ypos=210) ] 
+        #hovered [Show("config_afterchoices_skip_idle.png", xpos=46, ypos=518) ]
+        unhovered [Hide("gui_tooltip")]
+        action [Hide("main_menu_01"), Hide("animation_feather"), Jump("desk")]
 
 
         
@@ -49,20 +63,6 @@ screen main_menu_01:
                 #hovered [Show("gui_tooltip", my_picture="hoot", my_tt_xpos=250, my_tt_ypos=180) ] 
                 #unhovered [Hide("gui_tooltip")]
                 action [Hide("main_menu_01"), Hide("package"), Jump("mail_02")]
-
-
-    imagebutton: # GENIE
-        xpos 230
-        ypos 336
-        focus_mask True
-        xanchor "center"
-        yanchor "center"
-        idle "newanimation"
-        hover "03_hp/05_props/11_genie_02.png"
-        hovered [Show("gui_tooltip", my_picture="exclaim_01", my_tt_xpos=195, my_tt_ypos=210) ] 
-        #hovered [Show("config_afterchoices_skip_idle.png", xpos=46, ypos=518) ]
-        unhovered [Hide("gui_tooltip")]
-        action [Hide("main_menu_01"), Hide("animation_feather"), Jump("desk")]
     
     imagebutton: # PHOENIX
         xpos 400 
@@ -384,7 +384,18 @@ screen room: #MAIN ROOM BG. #ну, тут все просто. Кстати, з�
     add "03_hp/01_bg/01_main_room.png"
 screen room_night: #MAIN ROOM NIGHT BG. 
     add "03_hp/01_bg/01_main_room_02.png"
-    
+
+screen look_01:
+    add "03_hp/24_daphne/dap_look_a1.png"
+screen look_02:
+    add "03_hp/24_daphne/dap_look_a2.png"
+screen look_fap_01:
+    add "03_hp/24_daphne/dap_look_b2.png"
+
+screen dap_fap_genie :
+    add "dap_fap" at Position(xpos=70)
+    zorder 2
+
 screen door:    
     add "03_hp/05_props/01_door.png" at Position(xpos=758, ypos=315, xanchor="center", yanchor="center")
 screen cupboard:
@@ -403,7 +414,7 @@ screen candle_02:
     add "03_hp/05_props/08_candle.png" at Position(xpos=210, ypos=160, xanchor="center", yanchor="center")
 screen genie:
     tag chibi_genie
-    add "03_hp/05_props/11_genie_00.png" at Position(xpos=230, ypos=336, xanchor="center", yanchor="center")
+    add "03_hp/05_props/11_genie_00.png" at Position(xpos=217, ypos=342, xanchor="center", yanchor="center")
     #add "03_hp/05_props/09_table.png" at Position(xpos=220, ypos=330, xanchor="center", yanchor="center")
 screen owl: #DEFAULT OWL WITH ENVELOPE IN IT'S MOUTH.   
     add "03_hp/05_props/owl_01.png" at Position(xpos=315, ypos=270, xanchor="center", yanchor="center")
@@ -653,7 +664,9 @@ screen gift(__par=the_gift):
     add "03_hp/18_store/00.png" 
     add __par
     
-
+screen pic_event(__par=pic_for_event):
+    zorder 5
+    add __par
 
 
 

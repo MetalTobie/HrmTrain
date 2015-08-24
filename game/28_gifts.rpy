@@ -2046,7 +2046,35 @@ label giving_badge:
     jump hermione_main_menu                    
             
         
-        
+label giving_hair_set : 
+    $herView.hideQ( d5 )
+    $ wrd_new_items += 1
+    $ pos = POS_140
+
+    $ hermi.liking += 30
+    $hermi.Items.Receive(hero.Items,item.Name) #     
+    $herView.showQ( "body_01.png", pos, d5 )
+    her "Ведьмодница ? Я ?"
+    $herView.hideQQ()
+    $ the_gift = "03_hp/18_store/07.png" 
+    show screen gift
+    with d3
+    ">Вы даете Гермионе набор для волос. Теперь в гардеробе доступны различные прически."
+    hide screen gift
+
+    $ dress_code = True
+
+    $herView.showQQ( "body_06.png", pos )
+    her "Спасибо, сэр."
+    call happy
+
+
+    $ pos = POS_370
+    $herView.showQQ( None, pos )
+    $hermi.WrdHairUnlock()
+    jump hermione_main_menu    
+    
+    
         
     ### Ажурные чулки ###
 label giving_nets: 
@@ -4911,7 +4939,7 @@ label wrd_first_xxsmallskirt :
         her "Вы же не всерьез, сэр?!"
         her "Эта мини-юбка совсем крошечная!"
         $herView.hideshowQQ( "body_79.png", pos )
-        her "Из под нее мои трусики будут видны из другого конца коридора!"
+        her "Из под нее мои трусики... если они надеты... будут видны из другого конца коридора!"
         menu:
             m "..."
             "\"Ладно. Забудь.\"":
@@ -5004,6 +5032,16 @@ label wrd_first_xxsmallskirt :
     $ hermi.WrdSetDress("xxsmallskirt")
     $ hermi.WrdSetMainBL ()
 
+    if wrd_nopanties_dialog == False and hermi.whoring >= 12 and (hermi.WrdIsWear("xxsmallskirt") or hermi.WrdIsWear("xxxsmallskirt")):
+        m "Гермиона !!! Вау !"
+        m "Ты не боишься так ходить по школе ?"
+        
+        $herView.hideshowQQ( "body_56.png", pos )
+        her "..........."
+        her "Я использую маскирующие чары, сэр."
+        
+        $ wrd_nopanties_dialog = True
+    
     return
 
 label wrd_first_xxxsmallskirt :
@@ -5067,7 +5105,7 @@ label wrd_first_xxxsmallskirt :
         her "Вы же не всерьез, сэр?!"
         her "Эта юбка микроскопическая!"
         $herView.hideshowQQ( "body_79.png", pos )
-        her "Из под нее мои трусики будут видны из другого здания!"
+        her "Из под нее мои трусики... ну, если я их надену... будут видны из другого здания!"
         menu:
             m "..."
             "\"Ладно. Забудь.\"":
@@ -5150,6 +5188,16 @@ label wrd_first_xxxsmallskirt :
     $ hermi.WrdSetDress("xxxsmallskirt")
     $ hermi.WrdSetMainBL ()
 
+    if wrd_nopanties_dialog == False and hermi.whoring >= 12 and (hermi.WrdIsWear("xxsmallskirt") or hermi.WrdIsWear("xxxsmallskirt")):
+        m "Гермиона !!! Вау !"
+        m "Ты не боишься так ходить по школе ?"
+        
+        $herView.hideshowQQ( "body_56.png", pos )
+        her "..........."
+        her "Я использую маскирующие чары, сэр."
+        
+        $wrd_nopanties_dialog = True
+    
     return
     
 label wrd_first_skirt_cheerleader :

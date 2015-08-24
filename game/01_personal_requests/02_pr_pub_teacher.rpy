@@ -83,6 +83,11 @@ label new_request_02_c_complete:  ### FLIRTING WITH TEACHERS COMPLETE ###
     with Dissolve(.3)
     
     $ pos = POS_370
+    
+    if hermi.whoring >= 6 and hermi.whoring <= 8 and one_out_of_three == 2:    
+        $herView.data().saveState()
+        $herView.data().addItem( 'item_autograph' )
+    
     $herView.showQ( "body_01.png", pos )
     show screen hermione_02
     with Dissolve(.3)
@@ -190,6 +195,12 @@ label new_request_02_c_complete:  ### FLIRTING WITH TEACHERS COMPLETE ###
                     her "Ничего не произошло, сэр. Он просто рассмеялся мне в лицо..."
                     $herView.hideshowQQ( "body_29.png", pos )
                     her "У меня не так уж много женского очарования, но я пыталась быть милой..."
+                    
+                    $ pic_for_event = "03_hp/25_pic_events/snapegrope.png"
+                    show screen pic_event
+                    pause
+                    hide screen pic_event
+                    
                     $herView.hideshowQQ( "body_30.png", pos )
                     her "И он просто начал смеяться прямо мне в лицо!"
                     $herView.hideshowQQ( "body_34.png", pos )
@@ -338,12 +349,10 @@ label new_request_02_c_complete:  ### FLIRTING WITH TEACHERS COMPLETE ###
                                     m "Хм..."
                                     hide screen blktone8 
                                     with d5
-                                    $herView.data().saveState()
                                     # add pose with lifted skirt and authograph
                                     #call wrd_dress_undress_skirts
                                     $ hermi.WrdUpSkirt()
                                     #$herView.data().addItem( 'item_pose_lifted_skirt' )
-                                    $herView.data().addItem( 'item_autograph' )
                                     
                                     $herView.showQ( "body_51.png", pos )
                                     hide screen ctc
@@ -360,10 +369,6 @@ label new_request_02_c_complete:  ### FLIRTING WITH TEACHERS COMPLETE ###
                                     $herView.hideshowQQ( "body_51.png", pos )
                                     her "............?"
                                     $herView.hideQQ()
-                                    
-                                    # load before pose
-                                    $herView.data().loadState()
-                                    $ hermi.WrdSetMain ()
                                     
                                     $herView.showQ( "body_47.png", pos, fade )
                                     pause
@@ -611,6 +616,11 @@ label new_request_02_c_complete:  ### FLIRTING WITH TEACHERS COMPLETE ###
     
     hide screen bld1
     $herView.hideQ()
+    
+    # load before pose
+    $herView.data().loadState()
+    $ hermi.WrdSetMain ()
+    
     hide screen blktone 
     hide screen hermione_02
     hide screen ctc
@@ -657,7 +667,7 @@ label could_not_flirt_02: #Sent here when chose "Задание провален
     with Dissolve(.3)
     
     $ request_02_b_points += 1
-    $event.Finalize() # Увеличиваем счетчик выполнений ивента. Если этого не делать, то после фейла Гермионы в публичных (фейл приводит в эту ветку), начинает рассинхронизироваться счетчик заданий и отчетов
+    $wtevent.Finalize() # Увеличиваем счетчик выполнений ивента. Если этого не делать, то после фейла Гермионы в публичных (фейл приводит в эту ветку), начинает рассинхронизироваться счетчик заданий и отчетов
     jump finish_daytime_event
 #    $ request_02_b = False 
 #    $ hermione_sleeping = True
